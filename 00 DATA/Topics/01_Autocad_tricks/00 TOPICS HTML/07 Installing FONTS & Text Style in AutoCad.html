@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>07 Installing FONTS & Text Style</title>
+
+  <link href="../../../Logo/lisp_48px.png" rel="icon" sizes="32x32" type="image/png" />
+
+  <link rel="stylesheet" href="../../../CSS/all.min.css" />
+  <link rel="stylesheet" href="../../../CSS/My_Strap.css" />
+  <link rel="stylesheet" href="../../../CSS/STYLE.css" />
+  <link rel="stylesheet" href="../../../CSS/STYLE_footer.css" />
+  <link rel="stylesheet" href="../../../CSS/STYLE_Autocad_tricks_Topic.css" />
+  <link rel="stylesheet" href="../../../CSS/STYLE_header topic.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a style="opacity: 1" href="../../../../index.html">
+        <img 
+          src="../../../Logo/3O-01.png"
+          id="lg" 
+          alt="3O-01.png"
+        />
+      </a>
+
+      <p id="slogan">
+        Broaden <br />
+        Your <br />
+        Knowledge
+      </p>
+    </div>
+
+    <nav>
+      <ul class="nav-list">
+        <li class="mlist">
+          <a href="../../../../index.html"
+            ><i class="navico fas fa-home"></i>
+            <p class="navp">home</p>
+          </a>
+        </li>
+
+        <li class="mlist">
+          <a href="../../../About_us.html"
+            ><i class="navico fas fa-address-card"></i>
+            <p class="navp">about us</p>
+          </a>
+        </li>
+
+        <li class="mlist">
+          <a href="../../../../00 DATA/Autocad_tricks.html"
+            ><i class="navico fas fa-sign-in-alt"></i>
+            <p class="navp">Back</p>
+          </a>
+        </li>
+
+        <li class="mlist" id="ham">
+          <a
+            ><i id="hamburger" class="navico fas fa-hamburger"></i>
+            <p id="hamp" class="navp">more</p>
+          </a>
+
+          <div class="sub-prnt">
+            <ul id="more" class="sub-menu" dir="ltr">
+              <li><a href="01_DWG_COMPARE.html">01 DWG_COMPARE</a></li>
+              <li><a href="02 PDF 2 DWG.html">02 PDF 2 DWG</a></li>
+              <li><a href="03 JPG to DWG.html">03 JPG to DWG</a></li>
+              <li>
+                <a href="04 By Layer vs BY Block.html"
+                  >04 By Layer vs BY Block</a
+                >
+              </li>
+              <li>
+                <a href="05 Array in AutoCAD.html">05 Array in AutoCAD</a>
+              </li>
+              <li>
+                <a href="06 Copy Array - Fit.html">06 Copy Array - Fit</a>
+              </li>
+              <li>
+                <a href="07 Installing FONTS & Text Style in AutoCad.html"
+                  >07 FONTS & Text Style</a
+                >
+              </li>
+              <li><a href="08 CHANGE PGP.html">08 pgp file</a></li>
+              <li><a href="09 Fatal Error.html">09 Fatal Error</a></li>
+              <li>
+                <a href="10 PDF to DWG - Scale Reference in AutoCad.html"
+                  >10 Scale Reference</a
+                >
+              </li>
+              <li>
+                <a href="11 lisp in Autocad - part 1.html">11 lisp part 1</a>
+              </li>
+              <li><a href="12 lisp in Autocad - part 2.html">12 lisp part 2</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <article>
+    <h1 id="topTitle" class="">Installing FONTS & Text Style</h1>
+
+    <div class="topic">
+      <p class="parag_comp" dir="rtl">
+        <br><!-- ----------------------------------------------------------------------- -->
+        <br><!-- ----------------------------------------------------------------------- -->
+      </p>
+<!-- ----------------------------------------------------------------------- -->
+<!--                                 المقدمه                                  -->
+<!-- ----------------------------------------------------------------------- -->
+
+      <p class="parag_comp" dir="rtl">
+        ملفات الخطوط
+        ...
+        <br><!-- ----------------------------------------------------------------------- -->
+        اذاي احملها داخل الكاد عشان استخدمها في الكتابة
+        ...
+        <br><!-- ----------------------------------------------------------------------- -->
+        وهل في مسار لازم احط ملفات الخطوط فيه علشان الكاد يتعرف عليه ؟
+        ...
+        <br><!-- ----------------------------------------------------------------------- -->
+        فيديو جديد هانحكي فيه عن طريقة تحميل ملفات خطوط اضافية داخل برنامج 
+        <span class="mark">الاوتوكاد</span> 
+        ...
+        <br><!-- ----------------------------------------------------------------------- -->
+        وكمان هانعرف ازاي اعمل استايل للكتابه باعدادات بسيطه عشان استخدمه داخل الملف
+        ...
+        <br><!-- ----------------------------------------------------------------------- -->
+        <span class="mark underline">... فيلا بينا ... </span> 
+      </p>
+
+      <br><!-- ----------------------------------------------------------------------- -->
+
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                 Internet Connection                                   -->
+      <!-- ----------------------------------------------------------------------- -->
+      <!-- <center class="">Turn off if you don't have Internet Connection</center> -->
+      
+      <center id="connection" class="desflex">
+        <div  class="  toggleBox desflex ">
+          
+          <div class="toggleConect mrg20">
+            <input type="checkbox" id="checkbox">
+            <label for="" id="offline" class="online ops0">offline</label>
+            <label for="" id="online" class="offline">online</label>
+          </div>
+          
+          <h3 id="intcon" class="lt-space mrg20">I have <br> Internet Connection</h3>
+          
+        </div>
+      </center>
+      
+      <br><!-- ----------------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                 الفيديو                                   -->
+      <!-- ----------------------------------------------------------------------- -->
+      
+      <center class="" >
+        <div class="desflex">
+          <video id="video" class="video desnone" style="width: 600px;" controls>
+            <source 
+            src="../../../Video/01_Autocad_tricks/07 Installing FONTS & Text Style in AutoCad.mp4" 
+            type="video/mp4" 
+            />
+          </video>
+        </div>
+
+        <iframe 
+          id="iframe"
+          class="video "
+          width="600" 
+          height="338" 
+          src="https://www.youtube.com/embed/SxRF9DeW_mI" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </center>     
+
+      <br><!-- ----------------------------------------------------------------------- -->
+      <br><!-- ----------------------------------------------------------------------- -->
+
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                 باقي الموضوع                             -->
+      <!-- ----------------------------------------------------------------------- -->
+      <p class="parag_comp" dir="rtl">
+        <span class="mark">Installing FONTS & Text Style</span> 
+        <br><!-- ----------------------------------------------------------------------- -->
+
+        ...
+      </p>
+
+
+      </div>
+
+    </div>
+  </article>
+
+  <a href="#">
+    <i class="far fa-caret-square-up" id="up_btn"></i>
+  </a href="#">
+
+
+  <footer>
+    <div>
+      <p class="pFot">
+        Designed and developed by {
+        <a href="/00 DATA/About_us.html">
+          <img id="lgFot" src="../../../Logo/3O_footer.png" alt="3O-01.png" /></a>
+        team } © 2021
+      </p>
+    </div>
+
+  </footer>
+          <!-- ---------- FOOTER END ----------------------------- -->
+  <script src="../../../JS/on-offline.js"></script>
+  <script src="../../../JS/up_ptn.js"></script>
+  <script src="../../../JS/topic.js"></script>
+</body>
+
+</html>

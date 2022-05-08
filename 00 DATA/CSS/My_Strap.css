@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.brd {
+    border: 1px solid #eeff00;
+}
+/*><><><><><><><><><><><>*/
+/*-------display--------*/
+/*><><><><><><><><><><>*/
+
+.desflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desInlineBlock {
+    display: inline-block;
+}
+
+/*---------------------*/
+/*-------width--------*/
+/*-------------------*/
+
+.wd40 {
+    width: 40%;
+}
+.wdFit {
+  /* width: fit-content; */
+    width: min-content;
+}
+
+.wd80 {
+    width: 80%;
+}
+.wd100 {
+    width: 100%;
+}
+
+.desnone {
+    display: none;
+}
+
+/*----------------------*/
+/*-------opacity--------*/
+/*--------------------*/
+
+.ops0 {
+    opacity: 0;
+}
+.ops5 {
+    opacity: 0.5;
+}
+.ops1{
+    opacity: 1;
+}
+
+/*----------------------*/
+/*-------margin--------*/
+/*--------------------*/
+
+.mrg20{
+    margin: 20px;
+}
+.mrg10{
+    margin: 10px;
+}
+
+
+/*----------------------*/
+/*-------padding--------*/
+/*--------------------*/
+
+.pd10{
+    padding: 10px;
+}
+.pd20{
+    padding: 20px;
+}
+.pd30{
+    padding: 30px;
+}
+.pd50{
+    padding: 50px;
+}
+.pd100{
+    padding: 100px;
+}
+
+.pdtb10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*-------------------------------*/
+/*-------text-decoration--------*/
+/*-----------------------------*/
+
+
+.txtUnderLine{
+    text-decoration: underline;
+}
+.txtLineThrough{
+    text-decoration: line-through;
+}
+
+/*--------------------------*/
+/*-------letspacing--------*/
+/*------------------------*/
+
+.lt-space{
+    letter-spacing: .2em;
+}
